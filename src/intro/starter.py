@@ -18,5 +18,5 @@ def get_foundation_model(modelIdentifier):
     model = bedrock.get_foundation_model(modelIdentifier=modelIdentifier)
     pp.pprint(model)
 
-#list_foundation_models()
-get_foundation_model('writer.palmyra-x5-v1:0')
+list_foundation_models()
+#get_foundation_model('writer.palmyra-x5-v1:0')

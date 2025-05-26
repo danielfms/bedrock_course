@@ -25,7 +25,15 @@ Unix:
 source .venv\bin\activate
 ```
 
-# Commands
+# Install libraries
 ```
 pip install -r .\requirements.txt
 ```
+
+
+# Debug
+```
+Inside run and debug:
+- Create a launch.json file
+- Python debugger
+``
