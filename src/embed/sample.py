@@ -6,7 +6,7 @@ client = boto3.client(service_name='bedrock-runtime', region_name='us-west-2')
 fact = "The capital of Colombia is Bogota."
 animal = "cat"
 
-def get_embedding(text):
+def get_embedding(text: str):
     response = client.invoke_model(
         body=json.dumps(
             {
