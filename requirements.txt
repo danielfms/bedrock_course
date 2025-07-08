@@ -3,3 +3,4 @@ langchain
 langchain_aws
 langchain_community
 faiss-cpu
+pypdf
