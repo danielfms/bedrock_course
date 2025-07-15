@@ -1,5 +1,5 @@
 import json
-from summary import handler
+from summary_nova_model import handler
 
 event = {
     "body": json.dumps({
