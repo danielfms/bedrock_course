@@ -1,0 +1,6 @@
+POST https://isqhu8cokk.execute-api.us-west-2.amazonaws.com/prod/text?points=2
+Content-Type: application/json
+
+{
+  "text": "The Little Prince by Antoine de Saint-Exupéry is a poetic tale about a young prince who travels from planet to planet, meeting various adults and learning about love, loss, friendship, and the importance of seeing with the heart rather than the eyes, ultimately reminding readers to cherish innocence, wonder, and meaningful human connections."
+}
