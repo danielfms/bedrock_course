@@ -7,6 +7,6 @@ from image_api.image_api_stack import ImageApiStack
 
 
 app = cdk.App()
-ImageApiStack(app, "ImageApiStack")
+ImageApiStack(app, "Py-ImageApiStack")
 
 app.synth()

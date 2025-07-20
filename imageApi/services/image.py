@@ -3,9 +3,10 @@ import json
 import base64
 import random
 from time import time
+import os
 
 AWS_REGION = 'us-west-2'
-S3_BUCKET = 'image-bucket-dfms'
+S3_BUCKET = os.environ.get("BUCKET_NAME")
 
 bedrock_client = boto3.client(service_name="bedrock-runtime", region_name=AWS_REGION)
 s3_client = boto3.client("s3")

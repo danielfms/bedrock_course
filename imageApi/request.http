@@ -1,0 +1,6 @@
+POST https://41fz6h7tfc.execute-api.us-west-2.amazonaws.com/prod/image
+Content-Type: application/json
+
+{
+    "description": "A serene landscape featuring a tranquil lake surrounded by lush green forests and distant mountains under a clear blue sky, evoking a sense of peace and natural beauty."
+}
