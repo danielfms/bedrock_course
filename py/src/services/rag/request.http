@@ -1,0 +1,7 @@
+POST https://jpq72txg8b.execute-api.us-west-2.amazonaws.com/prod/rag
+Content-Type: application/json;charset=UTF-8
+Accept: application/json;charset=UTF-8
+
+{
+  "question": "¿Que es el comite de etica nacional?"
+}

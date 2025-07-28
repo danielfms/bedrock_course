@@ -1,0 +1,6 @@
+POST https://wsrzx4ctui.execute-api.us-west-2.amazonaws.com/prod/rag
+Content-Type: application/json
+
+{
+  "question": "What is the document about?"
+}
