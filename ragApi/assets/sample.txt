@@ -1,0 +1,11 @@
+This is a sample document for testing the knowledge base.
+
+The knowledge base will process this document and create embeddings that can be used for retrieval-augmented generation (RAG) applications.
+
+Key features of this knowledge base:
+- Uses Amazon Bedrock for embedding generation
+- Stores vectors in OpenSearch Serverless
+- Loads documents from S3 bucket
+- Supports chunking with configurable token size and overlap
+
+This document will be processed and stored as vectors that can be retrieved when users ask questions about the content. 
