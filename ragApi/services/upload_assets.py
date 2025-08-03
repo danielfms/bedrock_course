@@ -8,7 +8,7 @@ import boto3
 import argparse
 from pathlib import Path
 
-def upload_to_s3(bucket_name, local_folder="assets", s3_prefix="assets/"):
+def upload_to_s3(bucket_name, local_folder="assets", s3_prefix=""):
     """
     Upload files from local assets folder to S3 bucket.
     """

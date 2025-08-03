@@ -8,7 +8,9 @@ from rag_api.knowledge_base_stack import KnowledgeBaseStack
 
 
 app = cdk.App()
-RagApiStack(app, "RagApiStack")
-KnowledgeBaseStack(app, "KnowledgeBaseStack")
+
+# Create stacks
+rag_stack = RagApiStack(app, "RagApiStack")
+knowledge_base_stack = KnowledgeBaseStack(app, "KnowledgeBaseStack")
 
 app.synth()
